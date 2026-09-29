@@ -2,7 +2,7 @@
 """Build protected local HRS analysis datasets from an authorized RAND source.
 
 This script is supplied without HRS data. It never modifies the source ZIP.
-Run it only in a local non-AI environment using an authorized data product.
+Run it locally using an authorized data product and keep protected inputs outside AI tools.
 The derived outputs must remain protected and are excluded from this repository.
 """
 

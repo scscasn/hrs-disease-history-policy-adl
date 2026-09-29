@@ -1,0 +1,16 @@
+# Protected HRS data and local derivatives
+*.dta
+*.zip
+*.csv
+*.csv.gz
+*.rds
+derived/
+results/
+local_correction_list.txt
+
+# Credentials and local environment files
+.env
+.Rhistory
+.RData
+*.key
+*.pem

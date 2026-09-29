@@ -28,4 +28,4 @@ The release-version analysis was manually rerun by the authors in a local non-AI
 
 ## Version
 
-Version 1.0.0 corresponds to the frozen analysis and manuscript package dated 29 September 2026. The public release deliberately omits record-specific correction identifiers; authorized users must obtain them from the applicable HRS data alert and keep them local.
+Version 1.0.0 corresponds to the frozen analysis and manuscript package dated 29 September 2026. The public release deliberately omits record-specific correction identifiers; authorized users must obtain them from the applicable HRS data alert and keep them local. The code-only release is available at https://github.com/scscasn/hrs-disease-history-policy-adl under the public release tag `v1.0.0`.

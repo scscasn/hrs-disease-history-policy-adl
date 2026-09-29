@@ -10,7 +10,7 @@ The package preserves the release-version analytic specification, code, correcti
 
 Reproduction requires an independently obtained, authorized copy of the RAND HRS Longitudinal File 1992–2022 v1 Early Release data product, the applicable official HRS data-correction alert, and adherence to all HRS Conditions of Use. Users must provide local source and correction-list paths to `analysis/build_hrs_analysis_data.py` themselves. HRS data, row-level derivatives, and record-specific identifiers must not be uploaded, shared, or committed to this repository.
 
-The release-version analysis was manually rerun by the authors in a local non-AI environment. This package should likewise be run locally without providing HRS person-level data to AI systems or allowing AI tools to index directories containing HRS person-level data.
+The authors ran the analysis code and verified the reported results. Users should run this package locally with authorized HRS data and keep person-level data outside AI tools and directories indexed by them.
 
 ## Contents
 
@@ -28,4 +28,4 @@ The release-version analysis was manually rerun by the authors in a local non-AI
 
 ## Version
 
-Version 1.0.0 corresponds to the frozen analysis and manuscript package dated 29 September 2026. The public release deliberately omits record-specific correction identifiers; authorized users must obtain them from the applicable HRS data alert and keep them local. The code-only release is available at https://github.com/scscasn/hrs-disease-history-policy-adl under the public release tag `v1.0.0`.
+Version 1.0.1 updates the AI-use wording in the code-only release without changing the analysis logic or results. The package corresponds to the frozen analysis and manuscript dated 29 September 2026. The public release deliberately omits record-specific correction identifiers; authorized users must obtain them from the applicable HRS data alert and keep them local. The code-only release is available at https://github.com/scscasn/hrs-disease-history-policy-adl under the public release tag `v1.0.1`.
